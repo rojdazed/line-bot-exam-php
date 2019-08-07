@@ -4,6 +4,8 @@ require "vendor/autoload.php";
 require_once('vendor/linecorp/line-bot-sdk/line-bot-sdk-tiny/LINEBotTiny.php');
 
 $access_token = 'QFCan3h3ce7Ke7xq0+vWNoSj6IQQ/Q9tfp/nLSn2sc4eQsvcyoeStslZxU61R7Qu06Vm9vgoSEN8JdvlFtr0B3LHJfqLNEV4/AouvSyqeEZ7wIT3MQjZlYAhVuqzqH8Jz+r9Anw+cBpg3EDQRO0g1QdB04t89/1O/w1cDnyilFU=';
+$channelSecret = '431bea702ea4f2d007fd437e8d71d5f9';
+$idPush = 'U1d16664d5be47b6ee2992a7c05f9d5bc';
 
 // Get POST body content
 $content = file_get_contents('php://input');
